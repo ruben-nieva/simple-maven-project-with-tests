@@ -40,18 +40,14 @@
             <id>openshift-repository</id>
             <url>https://mirror.openshift.com/nexus/content/groups/public</url>
         </repository>
-    </repositories>
-
-    <distributionManagement>
-      <repository>
+        
+        <repository>
          <id>maven-releases</id>
          <url>http://nexus-artifactory.apps.10.2.2.2.xip.io/repository/maven-releases/</url>
-      </repository>
-       <snapshotRepository>
-          <id>maven-snapshots</id>
-          <url>http://nexus-artifactory.apps.10.2.2.2.xip.io/repository/maven-snapshots/</url>
-       </snapshotRepository>
-    </distributionManagement>
+        </repository>
+        
+    </repositories>
+
 
 
 </project>
